@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'; // <-- ОБОВ'ЯЗКОВИЙ імпорт стилів
+import './Header.css'; 
 
 function Header() {
   return (

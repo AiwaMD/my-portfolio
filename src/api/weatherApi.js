@@ -1,10 +1,9 @@
 import axios from 'axios';
 
-// Тестовий ключ для перевірки роботи (обмежений часом)
 const API_KEY = '03b5d1d05b9e4b1c90b1336e8b9fd30a';
 const BASE_URL = 'https://api.weatherapi.com/v1/current.json';
 
-// Функція для отримання погоди
+
 export async function getWeather(city) {
   try {
     const response = await axios.get(`${BASE_URL}?key=${API_KEY}&q=${city}&lang=uk`);
