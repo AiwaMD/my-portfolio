@@ -2,7 +2,7 @@ import React from 'react';
 
 function MyFuture() {
   return (
-    <div>
+    <div className="page">
       <h1>Моє майбутнє</h1>
       <ul>
         <li>Стати Front-End розробником</li>

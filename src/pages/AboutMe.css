@@ -1,0 +1,14 @@
+.project-link {
+    color: black;          
+    font-size: 22px;         
+    text-decoration: none;   
+    display: inline-block;   
+    margin-bottom: 15px;     
+    transition: color 0.3s;
+  }
+  
+  .project-link:hover {
+    color: #007bff;          
+    text-decoration: underline;
+  }
+  

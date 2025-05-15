@@ -11,6 +11,7 @@ main {
   justify-content: center;
   align-items: flex-start;
   padding: 40px 20px;
+  width: 100%; /* Додаємо ширину на всю сторінку */
 }
 
 .page {
